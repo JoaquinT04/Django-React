@@ -1,1 +1,9 @@
 django-react-crud
+
+*.log
+.DS_Store
+local_settings.py
+db.sqlite3
+media
+*/__pycache__/
+node_modules
