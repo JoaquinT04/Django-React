@@ -1,9 +1,28 @@
 django-react-crud
 
+# Ignorar archivos y directorios específicos en un proyecto Django y React
+
+# Archivos de configuración sensibles
+config/settings_local.py
+
+# Archivos y directorios de caché
+__pycache__/
+*.pyc
+
+# Directorios de dependencias
+node_modules/
+venv/
+
+# Archivos de registro y archivos temporales
 *.log
-.DS_Store
-local_settings.py
-db.sqlite3
-media
-*/__pycache__/
-node_modules
+*.tmp
+
+# Archivos generados por herramientas de construcción y empaquetado
+build/
+dist/
+*.bundle.js
+
+# Archivos de configuración de IDE
+.vscode/
+.idea/
+.vs/
