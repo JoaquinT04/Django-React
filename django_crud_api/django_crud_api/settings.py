@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     #Apps de terceros
     'corsheaders',
     'rest_framework',
+    'coreapi',
     #My apps
     'tasks',
 ]
@@ -133,3 +134,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # CorsHeaders
 # configuracion para decirle que otros servidores se pueden conectar a este servidor 
 CORS_ALLOWED_ORIGINS = []
+
+
+REST_FRAMEWORK = {
+    'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema',
+}
