@@ -4,3 +4,7 @@ Este modulo lo que hace es añadir algo llamado  headers, es una especie de stri
 
 Documentacion del modulo:https://pypi.org/project/django-cors-headers/
 django-cors-headers==4.2.0
+
+Modulo para documentar de forma automatica mi API
+https://www.django-rest-framework.org/coreapi/
+coreapi
