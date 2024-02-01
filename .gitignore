@@ -27,4 +27,3 @@ dist/
 .idea/
 .vs/
 # Ignorar la base de datos SQLite
-*/db.sqlite3

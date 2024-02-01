@@ -133,7 +133,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # CorsHeaders
 # configuracion para decirle que otros servidores se pueden conectar a este servidor 
-CORS_ALLOWED_ORIGINS = []
+#en este caso el servidor donde se ejecuta el frontend
+CORS_ALLOWED_ORIGINS = ["http://localhost:5173"]
+
 
 
 REST_FRAMEWORK = {
