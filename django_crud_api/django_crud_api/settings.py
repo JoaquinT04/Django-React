@@ -1,3 +1,4 @@
+import os
 """
 Django settings for django_crud_api project.
 
@@ -43,6 +44,9 @@ INSTALLED_APPS = [
     'coreapi',
     #My apps
     'tasks',
+    'book',
+    'author',
+    'loan'
 ]
 
 
@@ -63,7 +67,7 @@ ROOT_URLCONF = 'django_crud_api.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR,'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
